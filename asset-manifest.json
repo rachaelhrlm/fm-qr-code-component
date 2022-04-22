@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/fm-qr-code-component/static/js/main.0a44a667.js",
+    "main.js": "/fm-qr-code-component/static/js/main.024cf0dc.js",
     "static/js/787.c8ac5982.chunk.js": "/fm-qr-code-component/static/js/787.c8ac5982.chunk.js",
     "index.html": "/fm-qr-code-component/index.html",
-    "main.0a44a667.js.map": "/fm-qr-code-component/static/js/main.0a44a667.js.map",
+    "main.024cf0dc.js.map": "/fm-qr-code-component/static/js/main.024cf0dc.js.map",
     "787.c8ac5982.chunk.js.map": "/fm-qr-code-component/static/js/787.c8ac5982.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0a44a667.js"
+    "static/js/main.024cf0dc.js"
   ]
 }
