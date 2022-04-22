@@ -1,8 +1,8 @@
 html {
-  font-family: 'Outfit', sans-serif;
   font-size: 15px;
 }
 
 body {
+  font-family: 'Outfit', sans-serif;
   min-height: 100vh;
 }

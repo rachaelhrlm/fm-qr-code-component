@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 html {
-  font-family: 'Outfit', sans-serif;
   font-size: 15px;
 }
 body {
+  font-family: 'Outfit', sans-serif;
   min-height: 100vh;
 }
 /*
@@ -362,8 +362,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full{
   width: 100%;
 }
-.w-\[24rem\]{
-  width: 24rem;
+.w-\[22rem\]{
+  width: 22rem;
 }
 .flex-col{
   flex-direction: column;
@@ -400,18 +400,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-5{
   padding: 1.25rem;
 }
-.p-7{
-  padding: 1.75rem;
-}
 .text-center{
   text-align: center;
 }
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-\[1\.4rem\]{
+  font-size: 1.4rem;
 }
 .font-bold{
   font-weight: 700;
+}
+.leading-normal{
+  line-height: 1.5;
+}
+.leading-tight{
+  line-height: 1.25;
+}
+.tracking-wide{
+  letter-spacing: 0.025em;
 }
 .text-blue-dark{
   --tw-text-opacity: 1;
