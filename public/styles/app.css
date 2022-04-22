@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+}
 body {
   min-height: 100vh;
 }
@@ -259,7 +264,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: hsl(212, 45%, 89%); /* 2 */
 }
 /*
 Set the default cursor for buttons.
@@ -304,7 +309,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 [hidden] {
   display: none;
 }
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -324,7 +329,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: hsl(218 44% 22% / 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -347,4 +352,72 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+.flex{
+  display: flex;
+}
+.h-screen{
+  height: 100vh;
+}
+.w-full{
+  width: 100%;
+}
+.w-\[24rem\]{
+  width: 24rem;
+}
+.flex-col{
+  flex-direction: column;
+}
+.place-content-center{
+  place-content: center;
+}
+.place-items-center{
+  place-items: center;
+}
+.gap-6{
+  gap: 1.5rem;
+}
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+.rounded-2xl{
+  border-radius: 1rem;
+}
+.border{
+  border-width: 1px;
+}
+.bg-gray-light{
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 45% 89% / var(--tw-bg-opacity));
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.p-8{
+  padding: 2rem;
+}
+.p-5{
+  padding: 1.25rem;
+}
+.p-7{
+  padding: 1.75rem;
+}
+.text-center{
+  text-align: center;
+}
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-bold{
+  font-weight: 700;
+}
+.text-blue-dark{
+  --tw-text-opacity: 1;
+  color: hsl(218 44% 22% / var(--tw-text-opacity));
+}
+.text-gray-blue{
+  --tw-text-opacity: 1;
+  color: hsl(220 15% 55% / var(--tw-text-opacity));
 }
